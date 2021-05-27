@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:custom="http://schemas.android.com/tools">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+
+        app:civ_border_color="#FFFFFF"
+        app:civ_border_width="5dp"
+        android:id="@+id/imageviewcircle"
+        android:src="@drawable/imgitem"
+        android:layout_centerInParent="true"
+        android:layout_width="300dp"
+        android:layout_height="300dp"/>
+
+<!--    <com.gauravk.audiovisualizer.visualizer.CircleLineVisualizer
+        xmlns:custom="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/blob"
+        android:layout_centerInParent="true"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        custom:avColor="#D36614"
+        custom:avDensity="1"
+        custom:avSpeed="slow"
+        custom:avGravity="top"
+        custom:avType="outline"/>-->
+
+</RelativeLayout>

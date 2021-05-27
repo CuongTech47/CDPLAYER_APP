@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    tools:context=".Activity.MainActivity_all">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/logo7"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:text="CPLAYER"
+            android:textStyle="bold"
+            android:textColor="#1563B0"
+            />
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MUSIC"
+            android:gravity="center"
+            android:textSize="30sp"
+
+            android:textColor="#0D6185"
+
+            />
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="1"
+        >
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="60dp"
+            android:orientation="vertical"
+            android:gravity="center">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="30sp"
+                android:text="Đăng Ký"
+                android:textStyle="bold"
+
+                />
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Đăng Ký Dễ Dàng Ngay Bây Giờ !"
+                android:gravity="center"
+                android:textSize="15sp"
+
+                />
+
+
+
+            <RelativeLayout
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal"
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+
+                android:background="@drawable/bg_btn"
+                android:paddingLeft="10dp">
+                <ImageView
+                    android:layout_centerVertical="true"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/facebook"/>
+                <Button
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#00000000"
+                    android:text="Continue with Facebook "
+                    android:textAllCaps="false"
+                    android:textColor="#ffff"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/home_register_button"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg_btn2"
+                android:text="Đăng Ký Qua Số Điện Thoại"
+                android:textAllCaps="false"
+                android:textColor="#818181"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                />
+
+            <LinearLayout
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/twitter" />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/google_plus" />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+
+                    android:src="@drawable/linkedin" />
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bạn Đã Có Tài Khoản ?"
+                android:layout_centerVertical="true"
+                android:textColor="#818181"
+                android:textSize="12sp"/>
+            <TextView
+                android:id="@+id/home_login_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Đăng Nhập Ngay"
+                android:layout_marginLeft="3dp"
+                android:layout_centerVertical="true"
+                android:textColor="#2E2FE8"
+                android:textSize="14sp"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

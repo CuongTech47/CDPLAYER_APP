@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "569888913442",
+    "project_id": "musicapp-cebf2",
+    "storage_bucket": "musicapp-cebf2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:569888913442:android:ab472d920856464eaef27b",
+        "android_client_info": {
+          "package_name": "com.example.btl_music4b"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "569888913442-o9e6etje3q31fq86l2dofnji719en1ps.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDuKF1GN5yLLD4dk6jl1e4yy7ND61AudQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "569888913442-o9e6etje3q31fq86l2dofnji719en1ps.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
